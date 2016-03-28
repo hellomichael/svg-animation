@@ -1,0 +1,486 @@
+{
+  "animations": [
+    {
+      "id": "#base",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 0,
+            "x": 0.9,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 3,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#cover",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 4,
+            "x": 0.85,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 7,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#cover-shadow",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 4,
+            "x": 0.85,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 7,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#handle",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 7,
+            "x": 0,
+            "y": 25
+          },
+
+          {
+            "step": 10,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutBack"
+          }
+        ],
+        "scaleKeyframes": [
+          {
+            "step": 7,
+            "x": 0,
+            "y": 0
+          },
+
+          {
+            "step": 8,
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-right",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 5,
+            "x": 0,
+            "y": -300
+          },
+
+          {
+            "step": 8,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-left",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 4,
+            "x": 0,
+            "y": -300
+          },
+
+          {
+            "step": 7,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-holder-left",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 6,
+            "x": 0,
+            "y": 1
+          },
+
+          {
+            "step": 8,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-holder-right",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 5,
+            "x": 0,
+            "y": 1
+          },
+
+          {
+            "step": 7,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-buckle-left",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 4,
+            "x": 1,
+            "y": 0
+          },
+
+          {
+            "step": 7,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-buckle-right",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 5,
+            "x": 1,
+            "y": 0
+          },
+
+          {
+            "step": 8,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-prong-right-top",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 7,
+            "x": 0,
+            "y": 3
+          },
+
+          {
+            "step": 10,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ],
+        "scaleKeyframes": [
+          {
+            "step": 7,
+            "x": 1,
+            "y": 0,
+            "cy": "bottom"
+          },
+
+          {
+            "step": 10,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-prong-right-btm",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 7,
+            "x": 0,
+            "y": 3
+          },
+
+          {
+            "step": 10,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ],
+        "scaleKeyframes": [
+          {
+            "step": 7,
+            "x": 1,
+            "y": 0,
+            "cy": "bottom"
+          },
+
+          {
+            "step": 10,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-prong-left-top",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 6,
+            "x": 0,
+            "y": 3
+          },
+
+          {
+            "step": 9,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ],
+        "scaleKeyframes": [
+          {
+            "step": 6,
+            "x": 1,
+            "y": 0,
+            "cy": "bottom"
+          },
+
+          {
+            "step": 9,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#strap-prong-left-btm",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 6,
+            "x": 0,
+            "y": 3
+          },
+
+          {
+            "step": 9,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ],
+        "scaleKeyframes": [
+          {
+            "step": 6,
+            "x": 1,
+            "y": 0,
+            "cy": "bottom"
+          },
+
+          {
+            "step": 9,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#pocket-base",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 1,
+            "x": 1,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 4,
+            "x": 1,
+            "y": 1,
+            "easing": "easeInOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#pocket-top",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 2,
+            "x": 1,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 5,
+            "x": 1,
+            "y": 1,
+            "easing": "easeInOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#pocket-top-shadow",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 2,
+            "x": 1,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 5,
+            "x": 1,
+            "y": 1,
+            "easing": "easeInOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#logo",
+      "keyframes": {
+        "scaleKeyframes": [
+          {
+            "step": 4,
+            "x": 0,
+            "y": 0
+          },
+
+          {
+            "step": 6,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "#zipper",
+      "keyframes": {
+        "translateKeyframes": [
+          {
+            "step": 6,
+            "x": 90,
+            "y": 0
+          },
+
+          {
+            "step": 9,
+            "x": 0,
+            "y": 0,
+            "easing": "easeOutQuint"
+          }
+        ],
+
+        "rotateKeyframes": [
+          {
+            "step": 4,
+            "angle": 45,
+            "cy": "top"
+          },
+
+          {
+            "step": 6,
+            "angle": -45,
+            "easing": "easeOutBack"
+          },
+
+          {
+            "step": 8,
+            "angle": 30,
+            "easing": "easeOutQuint"
+          },
+
+          {
+            "step": 10,
+            "angle": 0,
+            "easing": "easeOutBack"
+          }
+        ],
+
+        "scaleKeyframes": [
+          {
+            "step": 4,
+            "x": 0,
+            "y": 0,
+            "cy": "top"
+          },
+
+          {
+            "step": 6,
+            "x": 1,
+            "y": 1,
+            "easing": "easeOutBack"
+          }
+        ]
+      }
+    }
+  ]
+}
