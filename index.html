@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>The Illusion of Life: An SVG Animation Case Study</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<!-- Libraries -->
+	<script src="js/libs/snap.svg.min.js"></script>
+	<script src="js/libs/snap.svg.easing.min.js"></script>
+
+	<!-- Scripts -->
+	<script src="js/src/svgAnimation.js"></script>
+	<script src="js/src/svgTween.js"></script>
+
+	<body>
+		<div id="canvas"></div>
+
+		<!-- Scripts -->
+		<script>
+			(function() {
+				var backpack = new svgAnimation({
+					canvas: 			new Snap('#canvas'),
+					svg: 					'svg/backpack.svg',
+					data: 				'json/backpack.json',
+					duration: 		2000,
+					steps: 				10
+				});
+			})();
+		</script>
+	</body>
+</html>
