@@ -12,7 +12,8 @@
 
   var svgTween = function (options) {
     var self = this;
-    self.options = extend(self.options, options);
+    self.options = extend({}, self.options);      
+    extend(self.options, options);
     self.init();
   };
 
