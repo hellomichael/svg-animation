@@ -14,8 +14,7 @@
 	<script src="js/libs/snap.svg.easing.min.js"></script>
 
 	<!-- Scripts -->
-	<script src="js/src/svgAnimation.js"></script>
-	<script src="js/src/svgTween.js"></script>
+	<script src="js/src/svgAnimation.min.js"></script>
 
 	<body>
 		<div id="canvas"></div>
@@ -23,7 +22,7 @@
 		<!-- Scripts -->
 		<script>
 			(function() {
-				var backpack = new svgAnimation({
+				var animation = new svgAnimation({
 					canvas: 			new Snap('#canvas'),
 					svg: 					'svg/backpack.svg',
 					data: 				'json/backpack.json',
