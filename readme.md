@@ -1,5 +1,5 @@
-# svgAnimation.js is a [Snap.svg](http://snapsvg.io) plugin used to create complex animations
-svgAnimation takes the complexity out of creating complex Snap.svg animations. Instead of animating in transform strings, callbacks, and milliseconds, svgAnimation allows us to use a simple JSON file to specify keyframes. With it, You can animate translate, rotate, and scaling transformations independently for any given element within an SVG. 
+# svgAnimation.js is a [Snap.svg](http://snapsvg.io) plugin used to create beautifull complex animations from simple SVGs
+svgAnimation takes the complexity out of creating Snap.svg animations. Instead of animating in transform strings, callbacks, and milliseconds, svgAnimation allows us to use a simple JSON file to specify keyframes. With it, You can animate translate, rotate, and scaling transformations independently for any given element within an SVG. 
 
 ![example.gif](https://rawgit.com/hellomichael/svgAnimation/master/example.gif)
 
@@ -36,14 +36,14 @@ To instantiate a new svgAnimation, use the following snippet below.
 ```
 
 ## Options
-* **canvas**:   Represents the Snap canvas that we'll drawing on to.
-* **svg**:      Defines the path where our SVG file resides.
-* **data**:     Defines the path where our JSON file resides.
-* **duration**: Defines the entire duration of our animation.
-* **steps**:    Defines the number of steps that our animation is made up of.
+* **canvas**:   Defines the Snap canvas that we'll drawing to, specified by a DOM id
+* **svg**:      Defines the path of the SVG file
+* **data**:     Defines the path of the JSON file
+* **duration**: Defines the entire duration of an animation
+* **steps**:    Defines the number of steps of an animation
 
 ### JSON File
-The JSON file defined in one of our options will hold the keyframes of our animation. A breakdown of the zipper animation is provided. 
+The JSON file will hold the keyframes of our animation. A breakdown of the zipper animation is provided an an example. 
 
 ```json
 {
