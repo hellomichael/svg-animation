@@ -7,23 +7,23 @@
     <title>The Illusion of Life: An SVG Animation Case Study</title>
     
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Libraries -->
+    <script src="js/libs/snap.svg.min.js"></script>
+    <script src="js/libs/snap.svg.easing.min.js"></script>
   </head>
 
-  <!-- Libraries -->
-  <script src="js/libs/snap.svg.min.js"></script>
-  <script src="js/libs/snap.svg.easing.min.js"></script>
+  <body>
+    <div id="canvas"></div>
 
-<body>
-  <div id="canvas"></div>
+    <script>
+      (function() {
+        var s = Snap('#canvas');
 
-  <script>
-    (function() {
-      var s = Snap('#canvas');
-
-      Snap.load("svg/backpack.svg", function (data) {
-        s.append(data);
-      });
-    })();
-  </script>
-</body>
+        Snap.load("svg/backpack.svg", function (data) {
+          s.append(data);
+        });
+      })();
+    </script>
+  </body>
 </html>
