@@ -1,4 +1,4 @@
-# svgAnimation.js is a [Snap.svg](http://snapsvg.io) plugin used to create beautifull complex animations from simple SVGs
+# svgAnimation.js is a [Snap.svg](http://snapsvg.io) plugin used to create complex animations from simple SVGs
 svgAnimation takes the complexity out of creating Snap.svg animations. Instead of animating in transform strings, callbacks, and milliseconds, svgAnimation allows us to use a simple JSON file to specify keyframes. With it, You can animate translate, rotate, and scaling transformations independently for any given element within an SVG. 
 
 ![example.gif](https://rawgit.com/hellomichael/svgAnimation/master/example.gif)
