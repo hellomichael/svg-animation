@@ -7,19 +7,18 @@
     <title>The Illusion of Life: An SVG Animation Case Study</title>
     
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Libraries -->
+    <script src="js/libs/snap.svg.min.js"></script>
+    <script src="js/libs/snap.svg.easing.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/src/svgAnimation.js"></script>
   </head>
-
-  <!-- Libraries -->
-  <script src="js/libs/snap.svg.min.js"></script>
-  <script src="js/libs/snap.svg.easing.min.js"></script>
-
-  <!-- Scripts -->
-  <script src="js/src/svgAnimation.js"></script>
 
   <body>
     <div id="canvas"></div>
 
-    <!-- Scripts -->
     <script>
       (function() {
         var backpack = new svgAnimation(
