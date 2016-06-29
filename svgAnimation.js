@@ -121,26 +121,12 @@
     */
     createTransformGroup: function(element) {
       if (element.node) {
-        var $translateGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-        var $rotateGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-        var $scaleGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-
-        $scaleGroup.setAttribute('class', 'scale');
-        $rotateGroup.setAttribute('class', 'rotate');
-        $translateGroup.setAttribute('class', 'translate');
-
-        // Clone original child nodes into scale group
-        for (var i = 0; i < element.node.childNodes.length; i++) {
-          $scaleGroup.appendChild(element.node.childNodes[i].cloneNode()); 
-        }
-
-        // Empty original node
-        while (element.node.hasChildNodes()) {
-          element.node.removeChild(element.node.lastChild);
-        }
-
-        // Replace with new transform groups
-        element.node.appendChild($translateGroup).appendChild($rotateGroup).appendChild($scaleGroup);
+        var childNodes = element.selectAll('*');
+        
+        element.g().attr('class', 'translate')
+          .g().attr('class', 'rotate')
+          .g().attr('class', 'scale')
+          .append(childNodes);
       }
     }
   };
