@@ -1,5 +1,5 @@
 # svgAnimation.js is a [Snap.svg](http://snapsvg.io) plugin used to create complex animations from simple SVGs
-svgAnimation takes the complexity out of creating Snap.svg animations. Instead of animating in transform strings, callbacks, and milliseconds, svgAnimation allows us to use a simple JSON file to specify keyframes. With it, You can animate translate, rotate, and scaling transformations independently for any given element within an SVG. 
+svgAnimation takes the complexity out of creating Snap.svg animations. Instead of animating in transform strings, callbacks, and milliseconds, svgAnimation allows us to use a simple JSON file to specify keyframes. With it, you can animate translate, rotate, and scaling transformations independently for any given element within an SVG. 
 
 ![example.gif](https://rawgit.com/hellomichael/svgAnimation/master/example.gif)
 
@@ -19,7 +19,7 @@ In your HTML file, import Snap, svgAnimation, and any easing libaries. Both the 
 ```
 
 ## Use
-To instantiate a new svgAnimation, use the following snippet below.
+To instantiate a new svgAnimation, use the following snippet.
 
 ```js
 <script>
@@ -43,7 +43,7 @@ To instantiate a new svgAnimation, use the following snippet below.
 * **steps**:    Defines the number of steps of an animation
 
 ### JSON File
-The JSON file will hold the keyframes of our animation. A breakdown of the zipper animation is provided an an example. 
+The JSON file will hold the keyframes of our animation. A breakdown of the zipper animation is provided as an example. 
 
 ```json
 {
